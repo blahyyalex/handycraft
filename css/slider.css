@@ -1,0 +1,11 @@
+/* Sasha Sydoernko ( skype: sasha.sydorenko ) */
+.slider { background: white url(../images/preload.gif) 50% 50% no-repeat; width: 100%; overflow: hidden; position: relative; float: left; margin: 0; height: 300px; }
+.slider .panel { float: left; height: 100%; position: relative; min-width: 970px; width: 970px; }
+
+.coda-nav { position: absolute; bottom: 10px; left: 25px; z-index: 50; }
+.coda-nav ul { list-style: none; margin: 0; padding: 0; width: 200px !important; }
+.coda-nav li { float: left; margin-right: 5px; }
+.coda-nav a { background: url(../images/slider-main-nav.png) 0 0 no-repeat; width: 12px; height: 0; padding-top: 12px; overflow: hidden; display: block; }
+.coda-nav a.current, .coda-nav a:hover { background-position: 0 100%; }
+
+.stripNav { display: none; }
